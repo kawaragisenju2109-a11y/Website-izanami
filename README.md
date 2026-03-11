@@ -1,1 +1,38 @@
 # Website-izanami
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Pribadi Saya</title>
+    <style>
+        /* CSS: Membuat tampilan jadi keren */
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
+        .kartu { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; width: 300px; }
+        img { width: 100px; border-radius: 50%; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 15px; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <div class="kartu">
+        <img src="https://via.placeholder.com/100" alt="Foto Profil">
+        <h2 id="izana-user">Halo, Saya izana!</h2>
+        <p>Saya sedang belajar coding dengan bantuan AI.</p>
+        
+        <button onclick="sapaUser()">Klik Saya</button>
+    </div>
+
+    <script>
+        // JavaScript: Membuat website jadi hidup
+        function sapaUser() {
+            let nama = prompt("Siapa nama kamu?");
+            if (izana) {
+                document.getElementById("izana-user").innerHTML = "Halo, " + izana + "!";
+                alert("Selamat datang di website saya, " + izana + "!");
+            }
+        }
+    </script>
+
+</body>
+</html>
